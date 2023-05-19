@@ -97,9 +97,9 @@
             this.LblIndicador.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblIndicador.Location = new System.Drawing.Point(648, 61);
             this.LblIndicador.Name = "LblIndicador";
-            this.LblIndicador.Size = new System.Drawing.Size(45, 24);
+            this.LblIndicador.Size = new System.Drawing.Size(46, 24);
             this.LblIndicador.TabIndex = 12;
-            this.LblIndicador.Text = "IBM";
+            this.LblIndicador.Text = "IMC";
             // 
             // dataGridView1
             // 
