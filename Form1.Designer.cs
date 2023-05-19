@@ -100,9 +100,9 @@
             this.LblMujer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMujer.Location = new System.Drawing.Point(133, 47);
             this.LblMujer.Name = "LblMujer";
-            this.LblMujer.Size = new System.Drawing.Size(63, 24);
+            this.LblMujer.Size = new System.Drawing.Size(85, 24);
             this.LblMujer.TabIndex = 6;
-            this.LblMujer.Text = "Mujer";
+            this.LblMujer.Text = "Mujeres";
             // 
             // LblHombre
             // 
