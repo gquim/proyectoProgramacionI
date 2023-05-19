@@ -100,9 +100,9 @@
             this.LblMujer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMujer.Location = new System.Drawing.Point(133, 47);
             this.LblMujer.Name = "LblMujer";
-            this.LblMujer.Size = new System.Drawing.Size(63, 24);
+            this.LblMujer.Size = new System.Drawing.Size(85, 24);
             this.LblMujer.TabIndex = 6;
-            this.LblMujer.Text = "Mujer";
+            this.LblMujer.Text = "Mujeres";
             // 
             // LblHombre
             // 
@@ -110,9 +110,9 @@
             this.LblHombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblHombre.Location = new System.Drawing.Point(330, 47);
             this.LblHombre.Name = "LblHombre";
-            this.LblHombre.Size = new System.Drawing.Size(85, 24);
+            this.LblHombre.Size = new System.Drawing.Size(95, 24);
             this.LblHombre.TabIndex = 7;
-            this.LblHombre.Text = "Hombre";
+            this.LblHombre.Text = "Hombres";
             // 
             // BtnCalcular
             // 
@@ -139,7 +139,7 @@
             this.Controls.Add(this.TxtEdad);
             this.Controls.Add(this.LblEdad);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Datos";
             this.ResumeLayout(false);
             this.PerformLayout();
 
