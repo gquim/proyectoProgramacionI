@@ -43,7 +43,7 @@
             // 
             this.LblEdad.AutoSize = true;
             this.LblEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblEdad.Location = new System.Drawing.Point(170, 128);
+            this.LblEdad.Location = new System.Drawing.Point(106, 119);
             this.LblEdad.Name = "LblEdad";
             this.LblEdad.Size = new System.Drawing.Size(59, 24);
             this.LblEdad.TabIndex = 0;
@@ -53,7 +53,7 @@
             // TxtEdad
             // 
             this.TxtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEdad.Location = new System.Drawing.Point(253, 126);
+            this.TxtEdad.Location = new System.Drawing.Point(189, 117);
             this.TxtEdad.Name = "TxtEdad";
             this.TxtEdad.Size = new System.Drawing.Size(97, 29);
             this.TxtEdad.TabIndex = 1;
@@ -61,7 +61,7 @@
             // TxtAltura
             // 
             this.TxtAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAltura.Location = new System.Drawing.Point(253, 180);
+            this.TxtAltura.Location = new System.Drawing.Point(189, 171);
             this.TxtAltura.Name = "TxtAltura";
             this.TxtAltura.Size = new System.Drawing.Size(97, 29);
             this.TxtAltura.TabIndex = 3;
@@ -70,7 +70,7 @@
             // 
             this.LblAltura.AutoSize = true;
             this.LblAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblAltura.Location = new System.Drawing.Point(170, 182);
+            this.LblAltura.Location = new System.Drawing.Point(106, 173);
             this.LblAltura.Name = "LblAltura";
             this.LblAltura.Size = new System.Drawing.Size(64, 24);
             this.LblAltura.TabIndex = 2;
@@ -79,7 +79,7 @@
             // TxtPESO
             // 
             this.TxtPESO.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtPESO.Location = new System.Drawing.Point(253, 238);
+            this.TxtPESO.Location = new System.Drawing.Point(189, 224);
             this.TxtPESO.Name = "TxtPESO";
             this.TxtPESO.Size = new System.Drawing.Size(97, 29);
             this.TxtPESO.TabIndex = 5;
@@ -88,7 +88,7 @@
             // 
             this.LblPeso.AutoSize = true;
             this.LblPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPeso.Location = new System.Drawing.Point(170, 240);
+            this.LblPeso.Location = new System.Drawing.Point(106, 226);
             this.LblPeso.Name = "LblPeso";
             this.LblPeso.Size = new System.Drawing.Size(57, 24);
             this.LblPeso.TabIndex = 4;
@@ -116,13 +116,14 @@
             // 
             // BtnCalcular
             // 
+            this.BtnCalcular.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.BtnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCalcular.Location = new System.Drawing.Point(188, 299);
             this.BtnCalcular.Name = "BtnCalcular";
-            this.BtnCalcular.Size = new System.Drawing.Size(150, 62);
+            this.BtnCalcular.Size = new System.Drawing.Size(155, 62);
             this.BtnCalcular.TabIndex = 8;
             this.BtnCalcular.Text = "Calcular";
-            this.BtnCalcular.UseVisualStyleBackColor = true;
+            this.BtnCalcular.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -140,6 +141,7 @@
             this.Controls.Add(this.LblEdad);
             this.Name = "Form1";
             this.Text = "Datos";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
